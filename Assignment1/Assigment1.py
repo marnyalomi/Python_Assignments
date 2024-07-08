@@ -3,6 +3,7 @@ tablet = [['B', 'A', 'T', 'S'],
           ['A', 'B', 'U', 'T'],
           ['T', 'U', 'B', 'A'],
           ['S', 'T', 'A', 'B']]
+#Method1
 def is_sator_squaremethod1(tablet):
     for i in range(len(tablet)):
         for j in range(len(tablet)):
@@ -13,7 +14,7 @@ def is_sator_squaremethod1(tablet):
     return True
 print(is_sator_squaremethod1(tablet))
 
-#or
+#or method2
 def is_sator_squaremethod2(tablet):
     for i in range(len(tablet)):
         for j in range(len(tablet)):
